@@ -1,6 +1,6 @@
 
-int w = 20;
-int h = 20;
+int w = 60;
+int h = 60;
 int sf = 20;
 MazeMaker maze;
 int c = 0;
@@ -13,7 +13,7 @@ int finishy = (int) (Math.random() * h);
 boolean finish = false;
 
 void setup() {
-  size(410, 410);
+  size(1210, 1210);
   drawMaze();
   strokeWeight(1);
   if(game) {
